@@ -1,8 +1,6 @@
 package org.example;
 
-import org.w3c.dom.ls.LSOutput;
-
-public class Block2 {
+public class Block2Task1 {
     public static void main(String[] args) {
         int b = 10;
         int c = 15;
