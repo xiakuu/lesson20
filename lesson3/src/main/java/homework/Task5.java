@@ -11,18 +11,26 @@ public class Task5 {
     public static void main(String[] args) {
         Scanner sc1 = new Scanner(System.in);
         System.out.println("Введите положителное число");
-        int i = sc1.nextInt();
-        int sum = 0;
 
-        if(i >= 0){
-            for(int q = 0; q <= i; q++){
-                sum = sum + q;
+        if(sc1.hasNextInt()) {
+            int i = sc1.nextInt();
+            int sum = 0;
+
+            if(i >= 0){
+                for(int q = 0; q <= i; q++){
+                    sum = sum + q;
+                }
+                System.out.println(sum);
+
             }
-            System.out.println(sum);
+            else{
+                System.out.println("Введено неверное число");
+            }
 
         }
-        else{
-            System.out.println("Введено неверное число");
+        else {
+            System.out.println("Ошибка, данные не являются числом");
         }
+
     }
 }
