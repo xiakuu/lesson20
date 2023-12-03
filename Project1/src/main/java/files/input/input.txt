@@ -1,0 +1,23 @@
+    <Transactions>
+
+            <CardNumberSender>22222-33333</CardNumberSender>
+            <CardNumberReceiver>33333-44444</CardNumberReceiver>
+            <MoneySend>500</MoneySend>
+
+            <CardNumberSender>22222-33333</CardNumberSender>
+            <CardNumberReceiver>33333-44444</CardNumberReceiver>
+            <MoneySend>0</MoneySend>
+
+            <CardNumberSender>22222-33333</CardNumberSender>
+            <CardNumberReceiver>22222-33333</CardNumberReceiver>
+            <MoneySend>500</MoneySend>
+
+            <CardNumberSender>22222-33333</CardNumberSender>
+            <CardNumberReceiver>33333-4444</CardNumberReceiver>
+            <MoneySend>500</MoneySend>
+
+            <CardNumberSender>22222-33333</CardNumberSender>
+            <CardNumberReceiver>33333-44444</CardNumberReceiver>
+            <MoneySend>500</MoneySend>
+
+    </Transactions>
